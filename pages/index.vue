@@ -28,7 +28,6 @@
 </template>
 
 <script>
-import axios from 'axios';
 import SearchInput from '@/components/SearchInput.vue';
 import { fetchProducts, fetchProductsByKeyword } from '~/api';
 

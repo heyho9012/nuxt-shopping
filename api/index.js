@@ -5,7 +5,7 @@ const instance = axios.create({
 });
 
 function fetchProducts() {
-  return instance.get('/products')
+  return instance.get('/products');
 }
 
 // products
