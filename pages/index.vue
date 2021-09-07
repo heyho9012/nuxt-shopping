@@ -54,7 +54,7 @@ export default {
 
   // Vue => Client Side Rendering
   // async created() {
-  //   const response = await axios.get('http://loc nb h80alhost:3000/products');
+  //   const response = await axios.get('http://localhost:3000/products');
   //   console.log(response);
   //   this.products = response.data;
   // },
@@ -73,7 +73,7 @@ export default {
     },
     moveToDetailPage(id) {
       console.log(id);
-      this.$router.push(`detail/${id}`);
+      this.$router.push(`/detail/${id}`);
     },
     moveToCartPage() {
       this.$router.push(`/cart`);
